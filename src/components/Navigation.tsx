@@ -66,17 +66,15 @@ const Navigation = () => {
       >
         <div className="max-w-[1440px] mx-auto px-6 md:px-10 lg:px-16">
           <div className="flex items-center justify-between h-16 md:h-20">
-            {/* Logo */}
+            {/* Logo — Text Only */}
             <a
               href="#hero"
               onClick={(e) => handleNavClick(e, '#hero')}
-              className="relative z-50 flex items-center gap-3"
+              className="relative z-50 flex items-center group py-2"
             >
-              <img
-                src="/assets/logo/logo.webp"
-                alt="RIZQ"
-                className="w-10 h-10 md:w-11 md:h-11 object-contain"
-              />
+              <span className="font-editorial text-2xl md:text-[26px] tracking-[0.25em] text-rizq-cream font-medium transition-colors duration-400 group-hover:text-rizq-bronze-light">
+                MIRA'S
+              </span>
             </a>
 
             {/* Desktop Nav */}
@@ -140,11 +138,11 @@ const Navigation = () => {
         </div>
 
         <div className="absolute bottom-12 flex flex-col items-center gap-2">
-          <span className="font-body text-[10px] tracking-[0.3em] uppercase text-rizq-muted/40">
-            Café & Kitchen
+          <span className="font-body text-[10px] tracking-[0.3em] uppercase text-rizq-muted/50">
+            Bakery · Café · Pizzeria
           </span>
-          <span className="font-body text-[10px] tracking-[0.2em] text-rizq-muted/30">
-            Defence Colony, New Delhi
+          <span className="font-body text-[10px] tracking-[0.2em] text-rizq-muted/40">
+            Good food · Better company
           </span>
         </div>
       </div>

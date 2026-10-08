@@ -11,7 +11,7 @@ export const reviews: Review[] = [
   {
     id: '1',
     name: 'Priya Mehta',
-    text: 'An extraordinary dining experience. The ambiance is unlike anything in Delhi — intimate, luxurious, and deeply personal. The Causa Limeña alone is worth the visit.',
+    text: "An extraordinary dining haven. The fluted timber lounge and warm cove lighting create an atmosphere unlike anything else. Mira's signature pumpkin and burrata bowl was pure artistry.",
     date: 'September 2026',
     rating: 5,
     location: 'New Delhi',
@@ -19,7 +19,7 @@ export const reviews: Review[] = [
   {
     id: '2',
     name: 'Arjun Khanna',
-    text: 'RIZQ has redefined what a restaurant can be. Every dish tells a story, every corner feels intentional. The terrace at golden hour is pure magic.',
+    text: 'MIRAS has perfected the craft of European bakery and Italian stone-hearth pizza. Sitting by the book lounge with fresh espresso and sourdough was the highlight of our week.',
     date: 'August 2026',
     rating: 5,
     location: 'Mumbai',
@@ -27,7 +27,7 @@ export const reviews: Review[] = [
   {
     id: '3',
     name: 'Sanya Verma',
-    text: 'From the moment you walk through the red carpet entrance, you know this is different. The spring rolls are addictive. The cocktails are art. We stayed until closing.',
+    text: 'From the moment you see the glowing champagne gold facade, you feel the thoughtfulness. The wood-fired Margherita had that perfect leopard-spotted char. We stayed for hours.',
     date: 'August 2026',
     rating: 5,
     location: 'New Delhi',
@@ -35,7 +35,7 @@ export const reviews: Review[] = [
   {
     id: '4',
     name: 'Rohan Desai',
-    text: 'I have been to restaurants across Europe and Southeast Asia. RIZQ stands shoulder to shoulder with the best of them. The global kitchen concept truly delivers.',
+    text: 'Having visited artisan bakeries across Copenhagen and Florence, MIRAS stands shoulder to shoulder with the finest. The Grand Mediterranean Mezze platter is simply unmatched.',
     date: 'July 2026',
     rating: 5,
     location: 'Bengaluru',
@@ -43,7 +43,7 @@ export const reviews: Review[] = [
   {
     id: '5',
     name: 'Aisha Sharma',
-    text: 'The truffle margherita is perfection — simple, honest, and unforgettable. The staff remembers your name. That is the kind of hospitality that brings you back.',
+    text: 'The bakery breakfast with fluffy folded farm eggs and country sourdough is our weekend ritual. The hospitality is warm, genuine, and deeply attentive.',
     date: 'July 2026',
     rating: 5,
     location: 'Gurgaon',
@@ -51,7 +51,7 @@ export const reviews: Review[] = [
   {
     id: '6',
     name: 'Vikram Singh',
-    text: 'A rare find in Defence Colony. The interiors feel like a members-only club, but the warmth is genuinely welcoming. The sushi is the freshest I have had in Delhi.',
+    text: 'The architectural design is magnificent — natural wood, bouclé seating, and the aroma of baking bread. The slow-braised barbacoa tacos were exceptional.',
     date: 'June 2026',
     rating: 5,
     location: 'New Delhi',
@@ -59,7 +59,7 @@ export const reviews: Review[] = [
   {
     id: '7',
     name: 'Meera Kapoor',
-    text: 'We celebrated our anniversary here and it was flawless. The attention to detail, the pacing of courses, the lighting — everything was choreographed beautifully.',
+    text: 'We hosted an intimate dinner in the book lounge. Every plate was presented with grace and the wine pairings complemented the stone-oven dishes flawlessly.',
     date: 'June 2026',
     rating: 5,
     location: 'Noida',

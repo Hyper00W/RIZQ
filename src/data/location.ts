@@ -1,9 +1,9 @@
 export const locationData = {
-  name: 'RIZQ',
-  tagline: 'Café & Kitchen',
+  name: "MIRA'S",
+  tagline: 'Bakery · Café · Pizzeria',
   address: {
-    line1: 'D-12, Third Floor & Terrace',
-    line2: 'Shiniwas Puri, Block D',
+    line1: 'D-12, Main Boulevard & Mezzanine',
+    line2: 'Market District',
     line3: 'Defence Colony',
     city: 'New Delhi',
     state: 'Delhi',
@@ -19,16 +19,16 @@ export const locationData = {
     phoneDisplay: '+91 81304 96705',
   },
   hours: {
-    open: '12:00 PM',
-    close: '1:00 AM',
-    display: '12:00 PM — 1:00 AM',
-    shortDisplay: '12:00 — 01:00',
+    open: '08:00 AM',
+    close: '11:30 PM',
+    display: '8:00 AM — 11:30 PM',
+    shortDisplay: '08:00 — 23:30',
   },
   social: {
     instagram: '#',
     facebook: '#',
     twitter: '#',
   },
-  googleMapsUrl: 'https://www.google.com/maps/place/RIZQ/@28.5758256,77.2381897,17z',
+  googleMapsUrl: 'https://www.google.com/maps/place/MIRAS/@28.5758256,77.2381897,17z',
   googleMapsEmbed: `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.0!2d77.2381897!3d28.5758256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM0JzMzLjAiTiA3N8KwMTQnMTcuNSJF!5e0!3m2!1sen!2sin!4v1`,
 };

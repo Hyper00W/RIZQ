@@ -47,30 +47,30 @@ const LocationSection = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative bg-rizq-dark py-32 md:py-44 lg:py-56"
+      className="relative bg-rizq-dark py-16 md:py-24 lg:py-28"
       id="location"
     >
       <div className="max-w-[1440px] mx-auto px-6 md:px-10 lg:px-16">
         {/* Section Number */}
-        <span className="font-body text-[10px] tracking-[0.3em] uppercase text-rizq-muted/40 block mb-16">
+        <span className="font-body text-[10px] tracking-[0.3em] uppercase text-rizq-muted/40 block mb-8">
           06
         </span>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
           {/* Map Area */}
           <div
             ref={mapRef}
             className="relative overflow-hidden bg-rizq-surface order-2 lg:order-1 h-[350px] md:h-[450px] lg:h-[550px]"
           >
             <iframe
-              src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=RIZQ+Defence+Colony+New+Delhi&center=${locationData.coordinates.lat},${locationData.coordinates.lng}&zoom=16&maptype=roadmap`}
+              src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=MIRAS+Defence+Colony+New+Delhi&center=${locationData.coordinates.lat},${locationData.coordinates.lng}&zoom=16&maptype=roadmap`}
               width="100%"
               height="100%"
               style={{ border: 0, filter: 'grayscale(0.8) contrast(1.1) brightness(0.7)' }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="RIZQ Location"
+              title="MIRAS Location"
             />
             <div className="absolute inset-0 pointer-events-none border border-white/[0.04]" />
           </div>
@@ -82,7 +82,7 @@ const LocationSection = () => {
             </span>
 
             <h2 className="font-editorial text-[clamp(2rem,4.5vw,4rem)] leading-[1.05] font-medium text-rizq-cream mb-10">
-              Visit <em className="text-rizq-bronze-light font-normal italic">RIZQ</em>
+              Visit <em className="text-rizq-bronze-light font-normal italic">MIRA'S</em>
             </h2>
 
             <div className="section-divider mb-10" />

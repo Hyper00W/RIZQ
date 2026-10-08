@@ -1,28 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
 @import "tailwindcss";
 
 /* ═══════════════════════════════════════════
-   RIZQ — Premium Restaurant Experience
-   Typography & Design System
+   MIRAS — Bakery · Café · Pizzeria
+   Typography & Architectural Design System
    ═══════════════════════════════════════════ */
 
 /* ── Design Tokens ── */
 @theme {
-  --color-rizq-black: #050505;
-  --color-rizq-dark: #111111;
-  --color-rizq-surface: #181818;
-  --color-rizq-bronze: #A87945;
-  --color-rizq-bronze-light: #C39A62;
-  --color-rizq-cream: #F1E9DC;
-  --color-rizq-muted: #A9A19A;
+  --color-rizq-black: #0E0F12;
+  --color-rizq-dark: #15161A;
+  --color-rizq-surface: #1C1E23;
+  --color-rizq-bronze: #CFA76E;
+  --color-rizq-bronze-light: #E2C59A;
+  --color-rizq-cream: #F7F4EE;
+  --color-rizq-muted: #ABA49A;
+  --color-rizq-accent: #B8894F;
   --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 /* ── Base ── */
 html {
-  background-color: #050505;
-  color: #F1E9DC;
+  background-color: #0E0F12;
+  color: #F7F4EE;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -32,7 +33,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #050505;
+  background-color: #0E0F12;
   overflow-x: clip;
 }
 
@@ -64,8 +65,8 @@ html.lenis, html.lenis body {
 
 /* ── Selection ── */
 ::selection {
-  background-color: rgba(168, 121, 69, 0.3);
-  color: #F1E9DC;
+  background-color: rgba(207, 167, 110, 0.35);
+  color: #F7F4EE;
 }
 
 /* ── Scrollbar ── */
@@ -74,16 +75,16 @@ html.lenis, html.lenis body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #050505;
+  background: #0E0F12;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #A87945;
+  background: #CFA76E;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #C39A62;
+  background: #E2C59A;
 }
 
 /* ── Film Grain Overlay ── */
@@ -100,7 +101,7 @@ html.lenis, html.lenis body {
 
 /* ── Vignette ── */
 .vignette {
-  box-shadow: inset 0 0 150px 60px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0 0 150px 60px rgba(0, 0, 0, 0.65);
 }
 
 /* ── Premium Button ── */
@@ -115,9 +116,10 @@ html.lenis, html.lenis body {
   font-weight: 500;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  border: 1px solid rgba(168, 121, 69, 0.3);
-  background: transparent;
-  color: #F1E9DC;
+  border: 1px solid rgba(207, 167, 110, 0.35);
+  background: rgba(14, 15, 18, 0.6);
+  backdrop-filter: blur(8px);
+  color: #F7F4EE;
   cursor: pointer;
   transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
   overflow: hidden;
@@ -127,7 +129,7 @@ html.lenis, html.lenis body {
   content: '';
   position: absolute;
   inset: 0;
-  background: #A87945;
+  background: #CFA76E;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -139,8 +141,8 @@ html.lenis, html.lenis body {
 }
 
 .btn-premium:hover {
-  color: #050505;
-  border-color: #A87945;
+  color: #0E0F12;
+  border-color: #CFA76E;
 }
 
 .btn-premium .arrow {
@@ -155,13 +157,8 @@ html.lenis, html.lenis body {
 .section-divider {
   width: 60px;
   height: 1px;
-  background: linear-gradient(90deg, transparent, #A87945, transparent);
+  background: linear-gradient(90deg, transparent, #CFA76E, transparent);
 }
-
-/* ── Reduced Motion ── */
-/* Note: We intentionally do NOT apply prefers-reduced-motion overrides here
-   because GSAP ScrollTrigger manages its own animation timing. Blanket
-   transition/animation overrides break clip-path reveals and scrubbed animations. */
 
 /* ── Image reveal clip ── */
 .img-reveal {

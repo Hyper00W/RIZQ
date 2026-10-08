@@ -71,13 +71,13 @@ const ReviewsSection = () => {
       {/* Horizontal Track */}
       <div
         ref={trackRef}
-        className="absolute top-0 left-0 h-full flex items-center gap-8 md:gap-12 pl-6 md:pl-10 lg:pl-16 pt-36 md:pt-40"
+        className="absolute top-0 left-0 h-full flex items-center gap-6 md:gap-10 pl-6 md:pl-10 lg:pl-16 pt-24 md:pt-28"
         style={{ willChange: 'transform' }}
       >
         {reviews.map((review, index) => (
           <div
             key={review.id}
-            className="flex-shrink-0 w-[85vw] md:w-[55vw] lg:w-[38vw] h-[55vh] md:h-[50vh] flex flex-col justify-between p-8 md:p-10 lg:p-12 border border-white/[0.04] bg-rizq-surface/40 backdrop-blur-sm"
+            className="flex-shrink-0 w-[85vw] md:w-[50vw] lg:w-[35vw] h-[52vh] md:h-[48vh] flex flex-col justify-between p-7 md:p-9 lg:p-10 border border-white/[0.05] bg-rizq-surface/40 backdrop-blur-sm"
           >
             {/* Stars */}
             <div className="flex gap-1.5">

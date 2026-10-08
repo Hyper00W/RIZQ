@@ -73,16 +73,16 @@ const StorySection = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative bg-[#050505] py-28 md:py-40 lg:py-48"
+      className="relative bg-rizq-black py-16 md:py-24 lg:py-28"
       id="story"
     >
       <div className="max-w-[1440px] mx-auto px-6 md:px-10 lg:px-16">
         {/* Section Number */}
-        <span className="font-body text-[10px] tracking-[0.3em] uppercase text-rizq-muted/40 block mb-14">
+        <span className="font-body text-[10px] tracking-[0.3em] uppercase text-rizq-muted/40 block mb-8">
           03
         </span>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Content */}
           <div ref={contentRef}>
             <span className="font-body text-[10px] md:text-xs tracking-[0.3em] uppercase text-rizq-bronze block mb-6">
@@ -98,32 +98,32 @@ const StorySection = () => {
             <div ref={lineRef} className="w-16 h-px bg-rizq-bronze/40 mb-8 origin-left" />
 
             <p className="font-body text-sm md:text-base leading-[1.8] text-rizq-muted max-w-lg mb-6">
-              RIZQ was born from a simple truth — the best meals are the ones
-              shared. Nestled in the heart of Defence Colony, we bring together
-              flavors from across the globe under one roof, served with the warmth
-              of home.
+              MIRA'S was born from a timeless dedication to culinary craftsmanship —
+              the comforting aroma of slow-fermented artisan sourdough at daybreak,
+              the rich crema of specialty coffee, and the blistered warmth of our
+              wood-fired stone hearth.
             </p>
 
             <p className="font-body text-sm md:text-base leading-[1.8] text-rizq-muted/70 max-w-lg">
-              From our wood-fired oven to the sushi counter, from the terrace bar
-              to the intimate indoor lounge — every corner of RIZQ is designed to
-              make you stay a little longer.
+              From our illuminated bakery market display to our intimate sunlit
+              book lounge, every detail at MIRA'S is designed to feel like an effortless
+              sanctuary where friends gather, conversations linger, and meals become memories.
             </p>
           </div>
 
           {/* Image */}
           <div
             ref={imageRef}
-            className="relative overflow-hidden"
+            className="relative overflow-hidden border border-white/[0.04]"
             style={{ clipPath: 'inset(0 0 0% 0)' }}
           >
             <img
               src="/assets/space/Interior_1.webp"
-              alt="RIZQ interior — warm ambient bar with herringbone floors and golden lighting"
+              alt="MIRAS bakery market display with illuminated artisan shelves"
               className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover"
               loading="lazy"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#050505]/40 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-rizq-black/50 to-transparent" />
           </div>
         </div>
       </div>
